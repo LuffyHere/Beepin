@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>First Page</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: lightseagreen">
+<center> <b><p style="background: lightgoldenrodyellow; width: 150px;height: 30px;color: lightseagreen">Creator</p></center></b>
+<br><hr>
+<div style="background-color: paleturquoise; font-family: 'Times New Roman', Times, serif"><h6>I am a student.<br>
+And,I am learning html by using Spck Editor.</h6></div>
+<p style="font-size: 19px; font-family: 'Times New Roman', Times, serif">
+ I read in grade 9. I am learning HTML to make website and games etc...<br>
+ <br>
+ I don't have much knowledge about html,css or coding... but I like to do html.
+ <br>
+ <center><var>I make this web page to learn coding and html.</var></center>
+ <br>
+</p><br><hr>
+<form style="font-family: sans-serif">
+  <label for="name">Name:</label>
+  <input type=" text" id="name"><br>
+  <label for="roll">Roll no:</label>
+  <input type="number" id="roll"><br>
+
+<br><br>
+<p>Please select your age:</p>
+<input type="radio" id="age1" name="age" value="10">
+<label for="age1">0-10</label>
+<input type="radio" id="age2" name="age" value="15">
+<label for="age2">11-15</label>
+<input type="radio" id="age3" name="age" value="20">
+<label for="age3">16-20</label>
+<br><br />  <center><h4>Choose Your Gender</h4></center>
+<center>  <input type="radio" id="Gender1" name="Gender" value="Boy">
+   <label for="Boy">Boy</label><br />
+  <input type="radio" id="Gender2" name="Gender" value="Girl">
+  <label for="Girl">Girl</label><br>
+<input type="submit" value="submit"></center>
+</form>   <center><h4>Choose Your Gender</h4></center>
+<center>  <input type="radio" id="Gender1" name="Gender" value="Boy">
+   <label for="Boy">Boy</label><br />
+  <input type="radio" id="Gender2" name="Gender" value="Girl">
+  <label for="Girl">Girl</label><br>
+<input type="submit" value="submit"></center>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>     
